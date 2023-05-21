@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "cO9aSxd1j6F8ihgNbP3DLAvXZhKRzul1YZjC5fnK"
 } 
 
-resource "aws_instance" "EC2" {
+resource "aws_instance" "tharun" {
   ami                    = "ami-07d3a50bd29811cd1"
   instance_type          = "t2.micro"
   key_name               = "training0304-keypair"
