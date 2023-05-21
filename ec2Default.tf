@@ -1,7 +1,7 @@
 provider "aws" {
   region  = "ap-south-1"
-  access_key = "AKIA6KAE3QQ2MXYGSYOG"
-  secret_key = ""
+  access_key = "aws_key"
+  secret_key = "aws_secret_key"
 } 
 
 resource "aws_instance" "tharun" {
